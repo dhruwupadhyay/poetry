@@ -1,0 +1,154 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background:url(3.jpeg) no-repeat;
+    background-size: cover;
+    height:120vh;
+}
+.wrapper p{
+	font-size:25px;
+	text-align:center;}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.logo{
+    width: 90px;
+    height: auto;
+}
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin:0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:.3s;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:rgb(255, 0, 0);
+    border-radius: 15px;
+
+}
+.main-content {
+    display: flex;
+	text-align:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 5px;
+}
+
+.box h2 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform:uppercase;
+}
+
+.box .content {
+    margin: 4px 0 0 0;
+	border-radius:13px;
+	
+}
+.box h2:hover {
+background:rgb(13, 171, 219);
+border-radius: 5px;}
+
+.box .content:hover{
+color:#4ebb2c;
+font-size:20px;
+	border-radius:12px;
+}
+.content .instagram:hover{
+	border-radius:12px;
+	color:#34d17a;
+
+}
+.poem .button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:55%;
+  margin-right:20px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius:12px;
+}
+.poem .button:hover{
+	background:#1f4a70;
+	color:#4CAF50;
+	padding:30px 70px 30px 70px;
+	font-size:25px;
+	border-radius:12px;
+	
+}
+.poem1 .button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:35%;
+  margin-right:20px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius:12px;
+}
+.poem1 .button:hover{
+	background:#1f4a70;
+	color:#4CAF50;
+	padding:30px 70px 30px 70px;
+	font-size:25px;
+border-radius:12px;
+}
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 30%;
+    background:rgba(0,0,0,0.8);
+    color:white;
+	font-size:16px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+
+
+	
